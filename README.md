@@ -1,6 +1,6 @@
 # Inhomogeneity correction using SPM in bash
 This is a script to run SPM12's inhomogeneity correction from bash. This is done by running MATLAB in -nodisplay mode. Two scripts are included to process 
-* a single file
+* a single NIfTI file
 * an entire BIDS structured folder
 
 ## Software needed
