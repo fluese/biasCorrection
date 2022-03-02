@@ -3,8 +3,12 @@ This is a script to run SPM12's inhomogeneity correction from bash. This is done
 * a single file
 * an entire BIDS structured folder
 
+## Software needed
+* MATLAB
+* SPM12
+
 ## Instructions
-It is essential to point to SPM12's tissue probability model. Please change the path in preproc.m on line 19 accordingly.
+Add the folder to your MATLAB path. Please change the path in preproc.m on line 19 to point to the tissue probability model of SPM, accordingly.
 
 Parameters for the inhomogeneity correction can be changed at the beginning of preproc.m as well. Parameters include:
 * FWHM
