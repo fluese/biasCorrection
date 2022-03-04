@@ -25,7 +25,7 @@ Details on what the parameters do are given in "biasCorrection.m".
 * To process a single file run:
   * "removeBiasfield.sh \<full path to your NIfTI file\>"
 * To process an entire BIDS folder run:
-  * "removeBiasfield.sh \<full path to your BIDS folder\>"
+  * "removeBiasfield_BIDS.sh \<full path to your BIDS folder\>"
 
 ## Output
 Data will be output in the folder were the input is stored. The suffix "_biasCorrected" will be added.
