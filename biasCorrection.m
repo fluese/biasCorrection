@@ -1,4 +1,4 @@
-function bias_Correction(files, param)
+function biasCorrection(files, param)
 % This is a script to run SPM's bias field correction without the GUI and
 % to circumvent limitations made by it (e.g. lowest option of FWHM is 30).
 %
