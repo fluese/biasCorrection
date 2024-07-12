@@ -1,4 +1,4 @@
-function [cls,M1] = spm_preproc_write8_fl(res,tc,bf,df,mrf,cleanup,bb,vx, biasfwhm, biasreg, samp)
+function [cls,M1] = spm_preproc_write8_fl_standalone(res,tc,bf,df,mrf,cleanup,bb,vx, biasfwhm, biasreg, samp)
 % Write out VBM preprocessed data
 % FORMAT [cls,M1] = spm_preproc_write8(res,tc,bf,df,mrf,cleanup,bb,vx)
 %__________________________________________________________________________
